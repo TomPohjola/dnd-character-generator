@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HahmoGeneraattori</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <main class="grid">
+      <div class="container-2">
+      <header class="header">Dnd5th edition hahmo generaattori</header>
+        <button class="arvo-hahmo-nappi">Generoi statsit!</button>
+        
+          
+          <p class="tausta-valitsin">Hahmon tausta <select class="valitsin" name="race">
+              <option id="human">Human</option>
+              <option id="dwarf">Dwarf</option>
+              <option id="elf">Elf</option>
+              <option id="orc">Orc</option>
+           </select>
+           <p class="tausta-valitsin">Hahmon sukupuoli <select class="valitsin2" name="gender">
+              <option id="male">Male</option>
+              <option id="female">Female</option>
+              </select>
+
+              <p class="tausta-valitsin">Hahmon luokka <select class="valitsin3" name="class">
+              <option id="artificer">Artificer</option>
+              <option id="barbarian">Barbarian</option>
+              <option id="bard">Bard</option>
+              <option id="cleric">Cleric</option>
+              <option id="druid">Druid</option>
+              <option id="fighter">Fighter</option>
+              <option id="monk">Monk</option>
+              <option id="paladin">Paladin</option>
+              <option id="ranger">Ranger</option>
+              <option id="rogue">Rogue</option>
+              <option id="sorcerer">Sorcerer</option>
+              <option id="warlock">Warlock</option>
+              <option id="wizard">Wizard</option>
+           </select>  
+          </div>
+          <div class="container">
+              <article class="statsiruutu">
+                <label> Strength: <p id="str">-</p> </label> 
+                <label> Dexterity: <p id="dex">-</p> </label>
+                <label> Constitution: <p id="con">-</p> </label> 
+                <label> Intelligence: <p id="int">-</p> </label> 
+                <label> Wisdom: <p id="wis">-</p> </label>
+                <label> Charisma: <p id="cha">-</p> </label>
+              </article>
+              <article class="statsiruutu">
+                <label> Modifier: <p id="strmod">-</p> </label> 
+                <label> Modifier: <p id="dexmod">-</p> </label>
+                <label> Modifier: <p id="conmod">-</p> </label> 
+                <label> Modifier: <p id="intmod">-</p> </label> 
+                <label> Modifier: <p id="wismod">-</p> </label>
+                <label> Modifier: <p id="chamod">-</p> </label>
+              </article>
+              <article class="statsiruutu">
+                <label> Health: <p id="hp">-</p> </label> 
+                <label> Armor Class: <p id="ac">-</p> </label>
+                <label> Spell Save DC: <p id="ssdc">-</p> </label>
+                <label> Proficiency Bonus: <p id="pb">-</p> </label>
+              </article>
+              <article class="statsiruutu">
+                <label> nimi: <p id="nimi">-</p> </label> 
+              </article>
+          </div>
+    </main>
+  <footer>
+
+     <p>Tekijä: Tom Pohjola &copy 2025</p>
+  </footer>
+
+  <script src="./functionality.js"></script>
+
+</body>
+</html>

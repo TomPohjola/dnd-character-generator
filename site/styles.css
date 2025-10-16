@@ -1,0 +1,80 @@
+body
+{
+  background-color: rgb(10, 10, 10);
+
+}
+.container 
+{
+  font-size: large;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: rgba(95, 60, 69, 0.8);
+  border: 5px solid;
+  border-radius: 15px;
+  border-color: rgb(10, 10, 10);
+  margin: 1ch;
+  text-align: center;
+  color: white;
+  width: 500px;
+}
+.container-2
+{
+  font-size: large;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1ch;
+}
+.statsiruutu
+{
+    background-color: rgba(24, 15, 17, 0.8);
+    border-radius: 10px;
+    margin: 1ch;
+}
+.grid {
+  display: grid;
+  justify-content: center;
+  font: Arial;
+}
+footer
+{
+ color: white;
+}
+.header
+{
+ justify-content: center;
+ color: white;
+ margin: 1ch;
+}
+.arvo-hahmo-nappi
+{
+    color: white;
+    border-radius: 15px;
+    background-color: rgba(95, 60, 69, 0.8);
+    margin: auto;
+    width: 250px;
+    height: 50px;
+}
+.arvo-hahmo-nappi:hover
+{
+    color: white;
+    border-radius: 15px;
+    background-color: rgba(95, 60, 69, 0.8);
+    border: solid white;
+    border-width: 2px;
+    margin: auto;
+    width: 250px;
+    height: 50px;
+}
+
+.tausta-valitsin
+{
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    background-color: rgba(95, 60, 69, 0.8);
+    margin: auto;
+    width: 250px;
+    height: 50px;
+}
+
+
