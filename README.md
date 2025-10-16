@@ -21,4 +21,4 @@ sorcerer 8 hp + constitution modifier
 warlock 8 hp + constitution modifier
 wizard 8 hp + constitution modifier
 
-Käyttöohjeet: valitse ensin hahmosi tausta, sitten sukupuoli ja lopuksi luokka. paina sitten "generoi hahmo!"-nappia, minkä jälkeen sovellus generoi hahmon.
+Käyttöohjeet: valitse ensin hahmosi tausta, sitten sukupuoli ja lopuksi luokka. paina sitten "generoi statsit!"-nappia, minkä jälkeen sovellus generoi hahmon.
